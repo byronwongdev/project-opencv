@@ -4,8 +4,8 @@ all my projects with opencv
 --update 07/11/2020
 add a project with face detection
   - object recognition
-  
-   - face detection
+
+    - face detection
 
       - projectface.py
 

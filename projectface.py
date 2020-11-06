@@ -1,9 +1,16 @@
 import cv2
 
 # set the Graphics display resolution
-frameWidth = 1280
+frameWidth = 1080
 frameHeight = 720
-cap = cv2.VideoCapture("Resources/cars3.mp4")
+
+
+#cap = cv2.VideoCapture("Resources/face2.mp4")
+
+cap = cv2.VideoCapture(1)
+cap.set(3, frameWidth)
+cap.set(4, frameHeight)
+cap.set(10,150)
 
 
 while True:
@@ -11,20 +18,20 @@ while True:
     img = cv2.resize(img, (frameWidth, frameHeight))
     
     ## xml  classifier
-    classifier = "Resources/cars.xml"
+    classifier = "Resources/haarcascade_frontalface_default.xml"
 
     #create the tracker
-    car_tracker = cv2.CascadeClassifier(classifier)
+    face_tracker = cv2.CascadeClassifier(classifier)
 
     ## convert to grey scale
     bnw = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
 
     ## detect
-    cars = car_tracker.detectMultiScale(bnw)
+    faces = face_tracker.detectMultiScale(bnw)
 
     ## draw rectangle
-    for car in cars:
-        (x,y,w,h) = car 
+    for face in faces:
+        (x,y,w,h) = face 
         cv2.rectangle(img,(x,y),(x+w,y+h),(0,0,255),2)
 
 

@@ -10,11 +10,12 @@ cap.set(10,150)
 
 # h_min,s_min,v_min,h_max,s_max,v_max
 #if you want to detect more colour add to the list 
-mycolours = [[167,127,0,179,230,255],[24,84,84,49,134,196]]
+
+mycolours = [[167,127,0,179,230,255],[24,84,84,49,134,196],[108,45,181,179,171,210]]
 
 #the drawing colour BGR
 mycoloursvalues = [[204,153,255],
-[102,255,255]]
+[102,255,255],[204,153,255]]
 
 mypoints = [] ##[x,y,colorId]
 

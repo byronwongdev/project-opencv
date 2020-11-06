@@ -8,12 +8,16 @@ add 3 projects covering the following topic:
   
     - car detection
     
-      -projectcar.py
+      - projectcar.py
+
+    - face detection
+
+      - projectface.py
       
   - opencv video I/O
   
     - video capture with camera
     
-      -projectdrawer.py
+      - projectdrawer.py
       
-      -projectreadcolour.py
+      - projectreadcolour.py

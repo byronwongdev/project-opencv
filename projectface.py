@@ -1,7 +1,7 @@
 import cv2
 
 # set the Graphics display resolution
-frameWidth = 1080
+frameWidth = 1280
 frameHeight = 720
 
 

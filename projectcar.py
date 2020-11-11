@@ -1,8 +1,8 @@
 import cv2
 
 # set the Graphics display resolution
-frameWidth = 1280
-frameHeight = 720
+frameWidth = 1600
+frameHeight = 900
 cap = cv2.VideoCapture("Resources/cars3.mp4")
 
 

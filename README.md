@@ -1,6 +1,12 @@
 # project-opencv
 all my projects with opencv
 
+--update 17/11/2020
+add a project with body detection and created a navigator using tkinter:
+  - main_navigator.py
+  - projectbody.py
+
+
 --update 07/11/2020
 add a project with face detection
   - object recognition

@@ -20,6 +20,9 @@ def projectface_func():
 
 def projectreadcolour_func():
     exec(open('projectreadcolour.py').read())
+
+def projectbody_func():
+    exec(open('projectbody.py').read())
     
 
 
@@ -34,6 +37,9 @@ my_button.grid(row=3, column=0, pady=20)
 
 my_button = Button(root, text="Project Readcolour!", command=projectreadcolour_func)
 my_button.grid(row=4, column=0, pady=20)
+
+my_button = Button(root, text="Project Body!", command=projectbody_func)
+my_button.grid(row=5, column=0, pady=20)
 
 
 

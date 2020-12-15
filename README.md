@@ -1,35 +1,24 @@
 # project-opencv
-all my projects with opencv
 
---update 17/11/2020
-add a project with body detection and created a navigator using tkinter:
-  - main_navigator.py
-  - projectbody.py
+A collection of my projects develop with Opencv. The project mainly involved with Computer Vision.
+Created different interesting projects with using Opencv library: face detection, object recognition, video capture with camera , body detection.
 
+## Installation
 
---update 07/11/2020
-add a project with face detection
-  - object recognition
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install Opencv-python.
 
-    - face detection
+```bash
+pip install opencv-python
+```
 
-      - projectface.py
+## Usage
 
---update 02/11/2020
-add 3 projects covering the following topic:
+run the main_navigator.py!
 
-  - object recognition
-  
-    - car detection
-    
-      - projectcar.py
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-   
-      
-  - opencv video I/O
-  
-    - video capture with camera
-    
-      - projectdrawer.py
-      
-      - projectreadcolour.py
+Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)

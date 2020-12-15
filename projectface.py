@@ -5,10 +5,10 @@ frameWidth = 1280
 frameHeight = 720
 
 
-#cap = cv2.VideoCapture("Resources/face2.mp4")
+cap = cv2.VideoCapture("Resources/face2.mp4")
 
 #front camera
-cap = cv2.VideoCapture(1)
+#cap = cv2.VideoCapture(1)
 cap.set(3, frameWidth)
 cap.set(4, frameHeight)
 cap.set(10,150)
